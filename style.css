@@ -65,10 +65,7 @@ button {
     align-items: center;
 }
 
-button img {
-    width: 16px;
-    margin-right: 10px;
-}
+
 
 select {
     flex: 1;
@@ -85,4 +82,37 @@ select {
     background-size: 15px;
     background-position-x: calc(100% - 5%);
     background-position-y: 20px;
+}
+
+@media screen and (max-width: 580px) {
+    .hero h1 {
+        font-size: 45px;
+        font-weight: 500;
+        margin-top: -50px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+
+    textarea {
+        width: 350px;
+    }
+
+    .row {
+        width: 320px;
+        display: grid;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 10px 25px;
+        border-radius: 25px;
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    button img {
+        width: 10px;
+        margin-right: 15px;
+    }
+
 }
